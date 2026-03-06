@@ -19,13 +19,6 @@ h1 {
   text-align: center;
 }
 
-h1_1 {
-  margin: 40px 0;
-  font-size: 1.6rem;
-  font-weight: var(--regular);
-  text-align: center;
-}
-
 h2 {
   font-size: 1.6rem;
   padding-bottom: 5px;
