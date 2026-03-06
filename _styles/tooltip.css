@@ -3,6 +3,7 @@
   color: var(--text);
   padding: 7.5px;
   text-align: left;
+  font-size: 1.5rem;
   box-shadow: var(--shadow);
 }
 
