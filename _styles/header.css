@@ -47,7 +47,7 @@ header a {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: var(--large);
 }
 
 .subtitle {
