@@ -70,45 +70,9 @@
 
 .portrait[data-style=tiny] .portrait-description,
 .portrait[data-style=tiny] .portrait-affiliation {
-  display: block;
+  display: none;
 }
 
-.portrait[data-style=tiny] {
-  align-items: center;
-  gap: 32px;
-}
-
-.portrait[data-style=tiny] .portrait-image {
-  width: 220px;
-  height: 260px;
-  margin: 0;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-.portrait[data-style=tiny] .portrait-name,
-.portrait[data-style=tiny] .portrait-description,
-.portrait[data-style=tiny] .portrait-affiliation {
-  display: block;
-}
-
-.portrait[data-style=tiny] .portrait-name {
-  font-size: 2rem;
-  line-height: 1.2;
-}
-
-.portrait[data-style=tiny] .portrait-description {
-  font-size: 1.25rem;
-  line-height: 1.35;
-  margin-top: 8px;
-}
-
-.portrait[data-style=tiny] .portrait-affiliation {
-  font-size: 1.15rem;
-  line-height: 1.35;
-  margin-top: 6px;
-  color: #666;
-}
 
 /* mobile */
 @media (max-width: 700px) {
