@@ -86,15 +86,6 @@
     text-align: center;
     gap: 20px;
   }
-
-  .portrait[data-style=horizontal] .portrait-text {
-    align-items: center;
-  }
-
-  .portrait[data-style=horizontal] .portrait-image {
-    width: 180px;
-    height: 220px;
-  }
 }
 
 /*# sourceMappingURL=portrait.css.map */
