@@ -73,4 +73,37 @@
   display: none;
 }
 
+/* portrait horizontal layout */
+.portrait[data-style="horizontal"] {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* 사진을 직사각형으로 */
+.portrait[data-style="horizontal"] .portrait-image {
+  width: 220px;
+  height: 260px;
+  border-radius: 8px;   /* 원형 제거 */
+  object-fit: cover;
+}
+
+/* 이름 크게 */
+.portrait-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* 직위 */
+.portrait-description {
+  font-size: 1.2rem;
+  margin-top: 6px;
+}
+
+/* 학교 */
+.portrait-affiliation {
+  font-size: 1.1rem;
+  color: #666;
+}
+
 /*# sourceMappingURL=portrait.css.map */
