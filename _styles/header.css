@@ -55,6 +55,10 @@ header a {
   font-weight: var(--thin);
 }
 
+header .title {
+  font-size: 1.2rem;
+}
+
 .nav-toggle {
   display: none;
   position: relative;
