@@ -73,4 +73,55 @@
   display: none;
 }
 
+.portrait[data-style="pi"] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.portrait[data-style="pi"] .icon {
+  display: none;
+}
+
+.portrait[data-style="pi"] .portrait-image {
+  width: 220px;
+  min-width: 220px;
+  margin-bottom: 0;
+  border-radius: 12px;
+}
+
+.portrait[data-style="pi"] .portrait-text {
+  flex: 1;
+}
+
+.portrait[data-style="pi"] .portrait-name {
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.portrait[data-style="pi"] .portrait-description,
+.portrait[data-style="pi"] .portrait-affiliation {
+  display: block;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .portrait[data-style="pi"] {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .portrait[data-style="pi"] .portrait-image {
+    width: 180px;
+    min-width: 180px;
+  }
+}
+
 /*# sourceMappingURL=portrait.css.map */
