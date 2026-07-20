@@ -26,6 +26,13 @@
     font-size: 0.9rem;
   }
 
+  @media (max-width: 768px) {
+    header .logo img {
+      height: 40px !important;
+      width: auto !important;
+    }
+  }
+
   /* Main sections */
   main section {
     padding: 1.5rem 1rem !important;
